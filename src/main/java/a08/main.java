@@ -31,12 +31,12 @@ public class main {
                     out.write(linea);
                     out.newLine();
                 }
+                //System.out.println("Directorio actual: " + System.getProperty("user.dir"));
             } catch (Exception e) {
                 System.out.print("Error de copia: " + e.getMessage());
             }
         } else {
             System.out.print("Error no puedes crear un archivo que no tenga el formato .txt.");
         }
-        System.out.println("Directorio actual: " + System.getProperty("user.dir"));
     }
 }
